@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.activeNav{
+  color: #555 !important;
+  background-color: #e7e7e7 !important;
+}
+
+.searchForm{
+  margin: 40px;
+  text-align: center;
+}
+
+.searchForm input{
+  width: 80%;
+  border: 3px solid gray;
+  border-radius: 10px;
+  margin: 20px auto;
+  display: block;
+  font-size: 20px;
+}
+
+.title {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.result_title{
+  font-size: 30px;
+  padding-top: 10px;
+  margin-left: 220px;
+}
+
+.card-title{
+  color: red;
+  font-size: 50px;
+  font-weight:
+}
+
+.car-card{
+  text-align: center;
+  width: 50%;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.datail_title{
+  padding: 20px;
+  text-align: center;
+}
+
+.d-image{
+  text-align: center;
+  padding: 30px;
+}
+
+.each-car{
+  margin: 5px 0px;
+  padding: 5px 5px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
